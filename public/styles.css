@@ -262,7 +262,7 @@ body {
 }
 
 /* tables styling */
-.resultsCrd {
+.resultsCard {
   margin: 0 auto; /*This centers the element horizontally*/
   width: 60%; /* Adjust the width as needed */
 }

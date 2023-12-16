@@ -29,15 +29,15 @@ mysqli_close($conn);
     <script src="https://kit.fontawesome.com/97ab0026dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../public/styles.css" />
     <title>People</title>
-    
-  </head>
+    </head>
+
   <body>
      <!-- Top Bar -->
      <div class="top-bar">
       <h3><?php echo $_SESSION['username']; ?></h3>
     </div>
 
-    <?php include '../config/db_connect.php' ?>
+    <!-- <?php include '../config/db_connect.php' ?> -->
     <?php include '../public/includes/nav.php' ?>
 
     <div class="newperson">
@@ -61,7 +61,7 @@ mysqli_close($conn);
       </div>
     </div>
 
-    <div class="resultsCrd">
+    <div class="resultsCard">
       <div class="tableTitle"><h2>People</h2></div>
        <table class="table">
           <tr>
