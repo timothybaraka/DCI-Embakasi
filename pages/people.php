@@ -29,6 +29,7 @@ mysqli_close($conn);
     <script src="https://kit.fontawesome.com/97ab0026dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../public/styles.css" />
     <title>People</title>
+    <link rel="icon" href="../public/images/logo1-modified.png" type="image/icon type">
     </head>
 
   <body>

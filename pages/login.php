@@ -59,11 +59,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <button type="submit">Login</button>
             </form>
 
-            <?php
-            if (isset($error_message)) {
-                echo '<div class="error">' . $error_message . '</div>';
-            }
-            ?>
+            <?php if (isset($error_message)) { ?>
+
+                <script>
+                    // Show pop-up box with error message
+                    alert('<?php echo $error_message; ?>');
+                </script>
+            
+            <?php  } ?>
         </div>
     </div>
     <script src="script.js"></script>

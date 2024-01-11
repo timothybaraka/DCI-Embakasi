@@ -15,12 +15,12 @@
             <span class="nav-item">People</span> 
         </a></li> 
         <li>
-            <a href="/trend">
+            <a href="../pages/trends.php">
             <i class="fas fa-chart-bar"></i>
             <span class="nav-item">Trends</span> 
         </a></li> 
         <li>
-            <a href="/about">
+            <a href="../pages/about.php">
             <i class="fas fa-archive"></i>
             <span class="nav-item">About</span> 
         </a></li> 
